@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="57773" started-at="2022-02-06T13:09:54Z" finished-at="2022-02-06T13:10:52Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="57773" started-at="2022-02-06T13:09:54Z" finished-at="2022-02-06T13:10:52Z">
+      <class name="testCases.HompageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HompageTest@224edc67]" name="setUp" is-config="true" duration-ms="7468" started-at="2022-02-06T18:40:08Z" finished-at="2022-02-06T18:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDealsLinkTest()[pri:1, instance:testCases.HompageTest@224edc67]" name="verifyDealsLinkTest" duration-ms="1244" started-at="2022-02-06T18:40:16Z" finished-at="2022-02-06T18:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsLinkTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HompageTest@224edc67]" name="setUp" is-config="true" duration-ms="7425" started-at="2022-02-06T18:40:17Z" finished-at="2022-02-06T18:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomepageTitleTest()[pri:1, instance:testCases.HompageTest@224edc67]" name="verifyHomepageTitleTest" duration-ms="6" started-at="2022-02-06T18:40:24Z" finished-at="2022-02-06T18:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HompageTest@224edc67]" name="setUp" is-config="true" duration-ms="7941" started-at="2022-02-06T18:40:24Z" finished-at="2022-02-06T18:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userNameTitleTest()[pri:2, instance:testCases.HompageTest@224edc67]" name="userNameTitleTest" duration-ms="1379" started-at="2022-02-06T18:40:32Z" finished-at="2022-02-06T18:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HompageTest@224edc67]" name="setUp" is-config="true" duration-ms="7704" started-at="2022-02-06T18:40:34Z" finished-at="2022-02-06T18:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactLinkTest()[pri:3, instance:testCases.HompageTest@224edc67]" name="verifyContactLinkTest" duration-ms="1264" started-at="2022-02-06T18:40:41Z" finished-at="2022-02-06T18:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactLinkTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HompageTest@224edc67]" name="setUp" is-config="true" duration-ms="7718" started-at="2022-02-06T18:40:43Z" finished-at="2022-02-06T18:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCompanyLinkTest()[pri:4, instance:testCases.HompageTest@224edc67]" name="verifyCompanyLinkTest" duration-ms="1310" started-at="2022-02-06T18:40:50Z" finished-at="2022-02-06T18:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompanyLinkTest -->
+      </class> <!-- testCases.HompageTest -->
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="6780" started-at="2022-02-06T18:39:54Z" finished-at="2022-02-06T18:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTitleTest()[pri:1, instance:testCases.LoginTest@4c70fda8]" name="LoginTitleTest" duration-ms="12" started-at="2022-02-06T18:40:01Z" finished-at="2022-02-06T18:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="5200" started-at="2022-02-06T18:40:01Z" finished-at="2022-02-06T18:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:testCases.LoginTest@4c70fda8]" name="loginTest" duration-ms="2290" started-at="2022-02-06T18:40:06Z" finished-at="2022-02-06T18:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
