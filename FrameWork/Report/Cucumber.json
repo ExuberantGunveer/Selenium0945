@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking Login Functionality with Valid Username",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;checking-login-functionality-with-valid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5363042000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginTestBDD.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79341600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Enter the Username in User Text Box",
+            "match": {
+              "location": "LoginTestBDD.user_Enter_the_Username_in_User_Text_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89460100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter the Password in Password Text Box",
+            "match": {
+              "location": "LoginTestBDD.user_Enter_the_Password_in_Password_Text_Box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4550090000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on Login buttn",
+            "match": {
+              "location": "LoginTestBDD.user_should_click_on_Login_buttn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21976000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginTestBDD.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4188905700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestBDD.Close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Forgot your Password Link",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;forgot-your-password-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6678338000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginTestBDD.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 671726700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Forgot Password Link",
+            "match": {
+              "location": "LoginTestBDD.click_on_Forgot_Password_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3146281400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestBDD.Close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Checking Login Functionality with inValid Username also",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;checking-login-functionality-with-invalid-username-also;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9054584900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginTestBDD.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154836900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Enter the Username in \"Admin\" and enter the password \"Qedge123!@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Qedge123!@\"",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginTestBDD.user_Enter_the_Username_in_and_enter_the_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 746215100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should click on Login buttn",
+            "match": {
+              "location": "LoginTestBDD.user_should_click_on_Login_buttn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77786700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should get Invalid Credential Message",
+            "match": {
+              "location": "LoginTestBDD.user_should_get_Invalid_Credential_Message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3159953800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestBDD.Close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Checking Login  with Valid Credentials",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;checking-login--with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3642306500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginTestBDD.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1864943700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Enter the valid Credentials and Click Login",
+            "match": {
+              "location": "LoginTestBDD.Enter_the_valid_Credentials_and_Click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3131168700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestBDD.Close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login Functionality of the Application",
+    "description": "",
+    "id": "checking-login-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/GunveerSingh/Desktop/My Work/JavaOne/FrameWork/src/main/java/FeatureFile/Login.feature",
+    "tags": []
+  }
+]
