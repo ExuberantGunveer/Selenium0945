@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="4" time="0.019117">
+    <testcase classname="Checking Login Functionality of the Application" name="Checking Login Functionality with Valid Username" time="0.003106">
+        <system-out><![CDATA[Given User is on Login Page.................................................skipped
+Then user Enter the Username in User Text Box...............................skipped
+Then user Enter the Password in Password Text Box...........................skipped
+When user should click on Login Button......................................skipped
+Then user is on Homepage....................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Login Functionality of the Application" name="Checking Login Functionality with inValid Username also" time="0.002692">
+        <system-out><![CDATA[Given User is on Login Page.................................................skipped
+Then user Enter the Username in "Admin" and enter the password "Qedge123!#@".skipped
+When user should click on Login Button......................................skipped
+Then user is on Homepage....................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Login Functionality of New Application" name="Checking Login Functionality with Valid Credentials" time="0.002245">
+        <system-out><![CDATA[Given User must be on Login Page............................................skipped
+When Enter the Valid Username and Valid Password............................skipped
+Then Click on Login Button..................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Login Functionality of the Application" name="Checking Login Functionality with Valid Username" time="0.011074">
+        <skipped><![CDATA[Given User on Login Page....................................................undefined
+Then user must Enter the Username in User Text Box..........................undefined
+Then user must Enter the Password in Password Text Box......................undefined
+When user must click on Login Button........................................undefined
+Then user should be on Homepage.............................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>
