@@ -1,0 +1,288 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking Login Functionality with Valid Username",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;checking-login-functionality-with-valid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 559800,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "login.User_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user Enter the Username in User Text Box",
+            "match": {
+              "location": "login.user_Enter_the_Username_in_User_Text_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user Enter the Password in Password Text Box",
+            "match": {
+              "location": "login.user_Enter_the_Password_in_Password_Text_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user should click on Login Button",
+            "match": {
+              "location": "login.user_should_click_on_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "login.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Checking Login Functionality with inValid Username also",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;checking-login-functionality-with-invalid-username-also;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "login.User_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user Enter the Username in \"Admin\" and enter the password \"Qedge123!#@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Qedge123!#@\"",
+                  "offset": 58
+                }
+              ],
+              "location": "login.userEneterValue(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should click on Login Button",
+            "match": {
+              "location": "login.user_should_click_on_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "login.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login Functionality of the Application",
+    "description": "",
+    "id": "checking-login-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "src/main/java/FeatureFile/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Checking Login Functionality with Valid Credentials",
+        "description": "",
+        "id": "checking-login-functionality-of-new-application;checking-login-functionality-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14200,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User must be on Login Page",
+            "match": {
+              "location": "LoginNew.User_must_be_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter the Valid Username and Valid Password",
+            "match": {
+              "location": "LoginNew.Enter_the_Valid_Username_and_Valid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "Qedge123!@#"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LoginNew.Click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login Functionality of New Application",
+    "description": "",
+    "id": "checking-login-functionality-of-new-application",
+    "keyword": "Feature",
+    "uri": "src/main/java/FeatureFile/LoginNew.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking Login Functionality with Valid Username",
+        "description": "",
+        "id": "checking-login-functionality-of-the-application;checking-login-functionality-with-valid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "User on Login Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user must Enter the Username in User Text Box",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user must Enter the Password in Password Text Box",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user must click on Login Button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should be on Homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login Functionality of the Application",
+    "description": "",
+    "id": "checking-login-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "src/main/java/FeatureFile/LoginOne.feature",
+    "tags": []
+  }
+]
