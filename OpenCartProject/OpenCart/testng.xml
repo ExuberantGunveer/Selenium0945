@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/GunveerSingh/Desktop/My Work/JavaOneTwo/OpenCartProject/OpenCart">
+        <classes>
+            <class name="opencart.test.LoginPageTest">
+        <methods>
+            <include name="setLoginPage"/></methods>
+    </class>
+        <class name="opencart.test.MarketplacePageTest">
+        <methods>
+            <include name="verifyMarketplaceTitleTest"/>
+            <include name="verifyAddToCart"/>
+        </methods>
+    </class>
+        <class name="opencart.test.RegistrationPageTest"><methods>
+        <include name="userCredentialsTest"/></methods>
+    </class>
+    </classes>
+    </test>
+</suite>

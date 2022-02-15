@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="46.627005">
+    <testcase classname="Checking Login Functionality of the Application" name="Checking Login Functionality with Valid Username" time="14.296565">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+Then user Enter the Username in User Text Box...............................passed
+And user Enter the Password in Password Text Box............................passed
+When user should click on Login buttn.......................................passed
+Then user is on Homepage....................................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Login Functionality of the Application" name="Forgot your Password Link" time="10.496878">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+Then Click on Forgot Password Link..........................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Login Functionality of the Application" name="Checking Login Functionality with inValid Username also" time="13.194747">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+Then user Enter the Username in "Admin" and enter the password "Qedge123!@".passed
+When user should click on Login buttn.......................................passed
+Then user should get Invalid Credential Message.............................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Login Functionality of the Application" name="Checking Login  with Valid Credentials" time="8.638815">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+Then Enter the valid Credentials and Click Login............................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
