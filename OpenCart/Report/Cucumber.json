@@ -1,0 +1,71 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Editting the Account Details Page",
+        "description": "",
+        "id": "title-of-your-feature;editting-the-account-details-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12996501800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login Page and enter the Valid Credentials",
+            "match": {
+              "location": "AccountDetails_BDDTest.user_is_on_Login_Page_and_enter_the_Valid_Credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2812957700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the PIN",
+            "match": {
+              "location": "AccountDetails_BDDTest.enter_the_PIN()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1801951100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Account Details",
+            "match": {
+              "location": "AccountDetails_BDDTest.click_on_Account_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5391320400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Edit the Account Details",
+            "match": {
+              "location": "AccountDetails_BDDTest.edit_the_Account_Details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/GunveerSingh/Desktop/My Work/New folder/OpenCart/src/main/java/FeatureFile/AccountPage.feature",
+    "tags": []
+  }
+]

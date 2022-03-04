@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.006873">
+    <testcase classname="Title of your feature" name="Editting the Account Details Page" time="23.006873">
+        <system-out>
+            <![CDATA[Given User is on Login Page and enter the Valid Credentials.................passed
+Then Enter the PIN..........................................................passed
+When Click on Account Details...............................................passed
+Then Edit the Account Details...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
